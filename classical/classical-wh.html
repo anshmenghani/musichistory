@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>The Evolution of Music</title>
+    <link rel="icon" href="https://t3.ftcdn.net/jpg/02/83/45/20/360_F_283452054_gT96gUaL4FN2o6UT1drEAhOSkx1IQXNw.jpg" />
+    <style>
+        #popup {
+            position:fixed;
+            align:center;
+            width:100vw;
+            height:100vh;
+            background:rgba(0,0,0,0.75);
+        }
+        #popup .popup-content {
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%,-50%);
+            width:400px;
+            padding:10px 20px;
+            background:#eee;
+        }
+        #popup a.close-popup {
+            position:absolute;
+            top:20px;
+            right:20px;
+            font-size:20px;
+            font-weight:600;
+            text-decoration:none;
+        }
+        #popup:target {
+            display:block;
+        }
+    </style>
+</head>
+
+<body style="background-image: url('https://i.ibb.co/QXVwVq4/main-bg.png')">
+<div id="popup">
+        <div class="popup-content">
+            <h1>Classical World History</h1>
+            <a href="/interactive" class="close-popup">&times</a>
+            <p>Europe is experiencing changes as far as the <b>scientific revolution, the enlightenment, and political revolutions.</b></p>
+            <li><b>Scientific</b> revolution pushes for logic and reason and examining the world around you in a very systematic way.</li>
+            <li>The <b>enlightenment</b> applies that thinking to the world around you—for example, applying rational, scientific thinking to how we act as humans. There’s a big focus on the logic of human interactions, what our natural rights are as humans, how we best respond to leadership, etc.</li>
+            <li>Major political revolutions during this time are the American Revolution and the French Revolution. Both pushed for an abandonment of the traditional monarchy and more rights delivered to the lower class. France’s revolution is much less successful than ours in the sense that they struggled for a long time to establish a system of government they actually wanted to stick with.</li>
+        </div>
+    </div>
+</body>
+
+</html>

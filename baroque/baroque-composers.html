@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>The Evolution of Music</title>
+    <link rel="icon" href="https://t3.ftcdn.net/jpg/02/83/45/20/360_F_283452054_gT96gUaL4FN2o6UT1drEAhOSkx1IQXNw.jpg" />
+    <style>
+        #popup {
+            position:fixed;
+            align:center;
+            width:100vw;
+            height:100vh;
+            background:rgba(0,0,0,0.75);
+        }
+        #popup .popup-content {
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%,-50%);
+            width:400px;
+            padding:10px 20px;
+            background:#eee;
+        }
+        #popup a.close-popup {
+            position:absolute;
+            top:20px;
+            right:20px;
+            font-size:20px;
+            font-weight:600;
+            text-decoration:none;
+        }
+        #popup:target {
+            display:block;
+        }
+    </style>
+</head>
+
+<body style="background-image: url('https://i.ibb.co/QXVwVq4/main-bg.png')">
+    <div id="popup">
+        <div class="popup-content">
+            <h1>Baroque Composers</h1>
+            <li>Bach (well-known for pieces for organ, ex. <i>Toccata and Fugue in d minor</i>)</li>
+            <li>Vivaldi (known for <i>Four Seasons</i>)</li>
+            <li>Handel (known for <i>Messiah–Hallelujah Chorus</i>)</li>
+            <li>Pachelbel (<i>Canon in D</i>)</li>
+            <li>Barbara Strozzi: First female composer to publish her music under her own name (vs. a pseudonym)</li>
+            <center>
+                <img width="20%" src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRTUqueOyN48q13BtX0Vb2LPYoLwfFOTiBDP4AlIs7y-IoCN0FnI4GhD0TdOFycl6-JbnuYrUSJmtmYMjA" alt="Johann Sebastian Bach">
+                <h3>Johann Sebastian Bach</h3>
+            </center>
+            <a href="/interactive" class="close-popup">&times</a>
+        </div>
+    </div>
+</body>
+
+</html>
